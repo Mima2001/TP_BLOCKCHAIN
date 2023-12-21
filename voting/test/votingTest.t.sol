@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.19;
 import "forge-std/Test.sol";
-import "src/SingingContest.sol"; // Corrected import statement and file name
+import "src/SingingContest.sol"; 
 
 contract SingingContestTest is Test {
-    SingingContest singingContest; // Corrected variable name
+    SingingContest singingContest; 
 
     function setUp() public {
         // Deploy a new contract instance for each test
